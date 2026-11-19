@@ -34,7 +34,7 @@ export const siteConfig = {
 
 export const visionMission = {
   intro:
-    "Koofiya Group is a diversified business group operating across food, travel, recruitment, home services and real estate — each venture guided by a shared commitment to quality and meaningful growth.",
+    "Koofiya Group is a diversified business group operating across travel, food, CCTV security, recruitment and home services — each venture guided by a shared commitment to quality and meaningful growth.",
   vision:
     "To build a family of businesses that create lasting value for customers, partners and communities across India.",
   mission:

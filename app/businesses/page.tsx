@@ -8,7 +8,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 export const metadata: Metadata = {
   title: "Our Businesses",
   description:
-    "Explore all Koofiya Group businesses — Dry Fruits, Holidays, Job Hub, Home Maintenance and Real Estate.",
+    "Explore all Koofiya Group businesses — Holidays, Dry Fruits, CCTV Installation & Service, Job Hub and Home Maintenance.",
 };
 
 export default function BusinessesPage() {
@@ -19,7 +19,7 @@ export default function BusinessesPage() {
           <SectionHeading
             eyebrow="Businesses"
             title="Explore our ventures"
-            description="Five focused businesses under Koofiya Group. Select a venture to learn more — or shop honey through Koofiya Dry Fruits."
+            description="Five focused businesses: Holidays, Dry Fruits, CCTV Installation & Service, Job Hub and Home Maintenance."
           />
         </Reveal>
 

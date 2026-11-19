@@ -28,9 +28,8 @@ export default function TermsPage() {
             availability, pricing and delivery.
           </p>
           <p>
-            Demo property listings on the Real Estate page are illustrative only
-            and do not represent available inventory unless clearly marked
-            otherwise.
+            Demo product prices and vehicle rates shown on the website are for
+            preview only and must be confirmed by the relevant Koofiya team.
           </p>
         </div>
       </Container>

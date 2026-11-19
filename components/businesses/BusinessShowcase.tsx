@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Business } from "@/lib/data/businesses";
-import { demoProperties } from "@/lib/data/businesses";
 import { VehicleBooking } from "@/components/holidays/VehicleBooking";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
@@ -154,61 +153,6 @@ export function BusinessShowcase({ business }: BusinessShowcaseProps) {
       </section>
 
       {business.slug === "holidays" ? <VehicleBooking /> : null}
-
-      {business.slug === "real-estate" ? (
-        <section className="border-t border-border bg-background-soft py-16 lg:py-24">
-          <Container>
-            <Reveal>
-              <SectionHeading
-                eyebrow="Featured properties"
-                title="Demo listings"
-                description="Sample properties for layout demonstration only. Replace with real inventory when available."
-              />
-            </Reveal>
-            <div className="mt-12 grid gap-8 md:grid-cols-3">
-              {demoProperties.map((property, i) => (
-                <Reveal key={property.id} delay={i * 0.05}>
-                  <article className="overflow-hidden">
-                    <div className="relative aspect-[4/3] bg-border">
-                      <Image
-                        src={property.image}
-                        alt={property.title}
-                        fill
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                        className="object-cover"
-                      />
-                      <span className="absolute top-3 left-3 bg-white/95 px-2.5 py-1 text-[0.65rem] font-medium uppercase tracking-wider text-foreground">
-                        {property.status}
-                      </span>
-                    </div>
-                    <div className="border-b border-border pt-4 pb-6">
-                      <p className="text-xs uppercase tracking-[0.14em] text-accent">
-                        {property.category}
-                      </p>
-                      <h3 className="mt-1 text-lg font-semibold text-foreground">
-                        {property.title}
-                      </h3>
-                      <dl className="mt-3 space-y-1 text-sm text-muted">
-                        <div>
-                          <dt className="inline">Location: </dt>
-                          <dd className="inline italic">{property.location}</dd>
-                        </div>
-                        <div>
-                          <dt className="inline">Size: </dt>
-                          <dd className="inline italic">{property.size}</dd>
-                        </div>
-                      </dl>
-                      <p className="mt-3 text-xs italic text-muted">
-                        {property.note}
-                      </p>
-                    </div>
-                  </article>
-                </Reveal>
-              ))}
-            </div>
-          </Container>
-        </section>
-      ) : null}
 
       <section className="bg-dark py-16 lg:py-20">
         <Container className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">

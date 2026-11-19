@@ -43,8 +43,8 @@ export function Footer() {
             <Logo size="lg" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted">
               {siteConfig.tagline} A diversified group building focused
-              businesses across food, travel, recruitment, home services and
-              real estate.
+              businesses across travel, food, CCTV, recruitment and home
+              services.
             </p>
           </div>
 

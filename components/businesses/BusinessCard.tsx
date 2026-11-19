@@ -8,11 +8,11 @@ type BusinessCardProps = {
 };
 
 const imagePositions: Record<string, string> = {
+  holidays: "object-[center_45%]",
   "dry-fruits": "object-center",
-  holidays: "object-center",
+  cctv: "object-center",
   "job-hub": "object-[center_30%]",
   "home-maintenance": "object-center",
-  "real-estate": "object-center",
 };
 
 export function BusinessCard({ business }: BusinessCardProps) {

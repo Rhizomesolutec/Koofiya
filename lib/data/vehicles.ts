@@ -26,8 +26,8 @@ export const holidayVehicles: HolidayVehicle[] = [
       "Spacious Armenia coach suited for group tours, temple trips and long-distance holiday travel.",
     features: ["AC", "Reclining seats", "Luggage space", "Ideal for large groups"],
     demoRateInr: 12000,
-    image: "/images/vehicles/armenia-coach.jpg",
-    imageAlt: "Armenia coach for group holiday travel",
+    image: "/images/vehicles/koofiya-holidays.jpg",
+    imageAlt: "Koofiya Holidays travel vehicle for group holiday booking",
     available: true,
   },
   {

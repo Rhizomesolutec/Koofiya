@@ -12,7 +12,7 @@ export function BusinessesGrid() {
           <SectionHeading
             eyebrow="Our Businesses"
             title="Five ventures. One standard of care."
-            description="Explore the businesses under Koofiya Group — each with its own focus, connected by a shared commitment to quality and clarity."
+            description="Holidays, Dry Fruits, CCTV Installation & Service, Job Hub and Home Maintenance — each with its own focus under Koofiya Group."
           />
         </Reveal>
 
