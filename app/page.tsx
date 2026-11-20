@@ -3,6 +3,7 @@ import { AboutIntro } from "@/components/home/AboutIntro";
 import { BusinessesGrid } from "@/components/home/BusinessesGrid";
 import { ClosingCTA } from "@/components/home/ClosingCTA";
 import { Hero } from "@/components/home/Hero";
+import { TopHero } from "@/components/home/TopHero";
 import { WhyKoofiya } from "@/components/home/WhyKoofiya";
 
 export const metadata: Metadata = {
@@ -14,11 +15,12 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <Hero />
+      <TopHero />
       <AboutIntro />
       <BusinessesGrid />
       <WhyKoofiya />
       <ClosingCTA />
+      <Hero />
     </>
   );
 }

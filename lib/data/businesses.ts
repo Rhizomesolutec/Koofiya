@@ -33,12 +33,12 @@ export const businesses: Business[] = [
     industry: "Travel & Tourism",
     market: "India",
     summary:
-      "Travel experiences, holiday planning and vehicle booking — Armenia Coach, buses and coaches via WhatsApp.",
+      "Travel experiences, holiday planning and vehicle booking — Urbania, buses and coaches from 5-seater to 49-seater buses via WhatsApp.",
     description:
-      "Koofiya Holidays helps travellers explore destinations and plan journeys — including coach and bus bookings such as Armenia Coach and other group vehicles, confirmed directly on WhatsApp.",
+      "Koofiya Holidays helps travellers explore destinations and plan journeys — with vehicles available from 5-seater to 49-seater buses, including Urbania and other group vehicles, confirmed directly on WhatsApp.",
     heroHeadline: "Journeys shaped around you.",
     heroDescription:
-      "Discover destinations, plan holidays and book coaches or buses for your group. Select a vehicle and send your booking request on WhatsApp.",
+      "Discover destinations, plan holidays and book vehicles available from 5-seater to 49-seater buses for your group. Select a vehicle and send your booking request on WhatsApp.",
     image: "/images/businesses/holidays-v6.jpg",
     imageAlt: "Koofiya Holidays travel vehicle on a scenic mountain road",
     gallery: [
@@ -59,7 +59,7 @@ export const businesses: Business[] = [
       {
         title: "Vehicle booking",
         description:
-          "Book Armenia Coach, luxury coaches, AC buses, mini buses and tempo travellers for your trip.",
+          "Vehicles available from 5-seater to 49-seater buses — book Urbania, luxury coaches, AC buses, mini buses and tempo travellers for your trip.",
       },
       {
         title: "Travel Experiences",
@@ -81,7 +81,7 @@ export const businesses: Business[] = [
       {
         title: "Coaches & buses ready to enquire",
         description:
-          "From Armenia Coach to mini buses and travellers — choose a vehicle and request a booking quickly.",
+          "Travel options for every group — from 5-seater vehicles to 49-seater buses, including Urbania, mini buses and travellers.",
       },
       {
         title: "Direct WhatsApp booking",
@@ -167,12 +167,13 @@ export const businesses: Business[] = [
     heroHeadline: "Security that watches over what matters.",
     heroDescription:
       "Request CCTV installation, discuss camera requirements and start a service enquiry for your home, shop or workplace.",
-    image: "/images/businesses/cctv-v2.jpg",
-    imageAlt: "Outdoor CCTV camera mounted for installation and service",
+    image: "/images/businesses/cctv-service-installation.jpg",
+    imageAlt:
+      "Modern white dome CCTV security camera with neat conduit mounted on a residential building",
     gallery: [
       {
-        src: "/images/businesses/cctv-v2.jpg",
-        alt: "Single outdoor CCTV camera against blue sky",
+        src: "/images/businesses/cctv-service-installation.jpg",
+        alt: "Clean residential building dome CCTV camera installation with weatherproof conduit",
       },
       {
         src: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
@@ -300,8 +301,9 @@ export const businesses: Business[] = [
     heroHeadline: "Care for the places you live.",
     heroDescription:
       "Request maintenance support, explore service categories and start a service enquiry for your home or property.",
-    image: "/images/businesses/home-maintenance.jpg",
-    imageAlt: "Bright well-kept home kitchen and living space",
+    image: "/images/businesses/home-maintenance-premium.jpg",
+    imageAlt:
+      "Premium modern residential house with contemporary architecture and landscaped garden",
     gallery: [
       {
         src: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80",

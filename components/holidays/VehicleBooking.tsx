@@ -53,8 +53,17 @@ export function VehicleBooking() {
           <SectionHeading
             eyebrow="Vehicle booking"
             title="Book coaches, buses & travellers"
-            description="Choose from Armenia Coach and other buses or coaches. Booking opens WhatsApp so the Koofiya Holidays team can confirm availability and final rates."
+            description="Choose from Urbania and other buses or coaches. Booking opens WhatsApp so the Koofiya Holidays team can confirm availability and final rates."
           />
+          <div className="mt-6 border border-border border-l-2 border-l-accent bg-white px-5 py-4 sm:px-6">
+            <p className="text-sm font-semibold tracking-tight text-foreground sm:text-base">
+              Vehicles Available from 5-Seater to 49-Seater Buses
+            </p>
+            <p className="mt-1 text-sm text-muted">
+              Travel Options for Every Group – From 5-Seater Vehicles to
+              49-Seater Buses.
+            </p>
+          </div>
         </Reveal>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

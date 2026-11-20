@@ -10,9 +10,9 @@ type LogoProps = {
 };
 
 const sizes = {
-  sm: { width: 160, height: 64, className: "h-11 w-auto sm:h-12" },
-  md: { width: 200, height: 80, className: "h-12 w-auto sm:h-14" },
-  lg: { width: 240, height: 96, className: "h-14 w-auto sm:h-[4.25rem]" },
+  sm: { width: 120, height: 72, className: "h-9 w-auto sm:h-10" },
+  md: { width: 146, height: 88, className: "h-10 w-auto sm:h-11" },
+  lg: { width: 166, height: 100, className: "h-11 w-auto sm:h-12" },
 };
 
 export function Logo({
@@ -27,7 +27,7 @@ export function Logo({
   const mark = (
     <span className={`inline-flex items-center gap-2.5 ${className}`}>
       <Image
-        src="/images/koofiya-logo.png"
+        src="/images/koofiya-brand-logo.png"
         alt="Koofiya"
         width={dim.width}
         height={dim.height}

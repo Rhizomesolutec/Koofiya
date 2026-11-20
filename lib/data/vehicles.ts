@@ -18,16 +18,16 @@ export type HolidayVehicle = {
  */
 export const holidayVehicles: HolidayVehicle[] = [
   {
-    id: "armenia-coach",
-    name: "Armenia Coach",
+    id: "urbania",
+    name: "Urbania",
     category: "Coach",
     seats: 45,
     description:
-      "Spacious Armenia coach suited for group tours, temple trips and long-distance holiday travel.",
+      "Spacious Urbania suited for group tours, temple trips and long-distance holiday travel.",
     features: ["AC", "Reclining seats", "Luggage space", "Ideal for large groups"],
     demoRateInr: 12000,
     image: "/images/vehicles/koofiya-holidays.jpg",
-    imageAlt: "Koofiya Holidays travel vehicle for group holiday booking",
+    imageAlt: "Urbania travel vehicle — Koofiya Holidays group booking",
     available: true,
   },
   {
